@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>scopeName</key>
+    <string>source.x</string>
+    <key>fileTypes</key>
+    <array>
+      <string>x</string>
+    </array>
+    <key>name</key>
+    <string>alex happy</string>
+
+    <key>patterns</key>
+    <array>
+      <dict>
+        <key>begin</key>
+			  <string>(?<!\\)\{</string>
+  			<key>end</key>
+	  		<string>(?<!\\)\}</string>
+        <key>name</key>
+			  <string>alex</string>
+  			<key>patterns</key>
+  			<array>
+	  			<dict>
+		  			<key>include</key>
+			  		<string>source.haskell</string>
+				  </dict>
+          <dict>
+		  			<key>include</key>
+			  		<string>$self</string>
+          </dict>
+        </array>
+      </dict>
+    </array>
+    <key>uuid</key>
+    <string>FF0550E0-3A29-11E3-AA6E-0800200C9A77</string>
+  </dict>
+</plist>

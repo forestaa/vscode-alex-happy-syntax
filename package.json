@@ -1,0 +1,36 @@
+{
+    "name": "alex-happy-syntax",
+    "displayName": "alex happy syntax",
+    "description": "alex happy syntax highlighting",
+    "version": "0.0.1",
+    "publisher": "forestaa",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "alex",
+                "aliases": [
+                    "Haskell",
+                    "alex"
+                ],
+                "extensions": [
+                    ".x",
+                    ".y"
+                ],
+                "configuration": "./haskell-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "alex",
+                "scopeName": "source.x",
+                "path": "./syntaxes/alex.tmLanguage"
+            }
+        ]
+    }
+}
