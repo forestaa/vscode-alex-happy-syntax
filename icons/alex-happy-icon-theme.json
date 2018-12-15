@@ -1,0 +1,12 @@
+{
+    "fileExtensions": {
+        "x": "_haskell",
+        "y": "_haskell"
+    },
+    "light": {
+        "fileExtensions": {
+            "x": "_haskell_light",
+            "y": "_haskell_light"
+        }
+    }
+}
